@@ -1,7 +1,7 @@
 # --- Data Source for an Existing SSH Key ---
 
 data "digitalocean_ssh_key" "existing_ssh_key" {
-  name = "MERN Project SSH Key"
+  name = "ssh"
 }
 
 # --- Droplet (Server) Resource ---

@@ -11,7 +11,7 @@ variable "do_token" {
 variable "droplet_region" {
   description = "The region to create the Droplet in."
   type        = string
-  default     = "sgp1" # Singapore. ඔයාට කැමති region එකක් දෙන්න පුළුවන් (e.g., blr1, nyc1)
+  default     = "sgp1" # can add any region 
 }
 
 

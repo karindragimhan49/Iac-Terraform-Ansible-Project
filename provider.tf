@@ -6,12 +6,14 @@ terraform {
   required_providers {
     digitalocean = {
       source  = "digitalocean/digitalocean"
-      version = ">= 2.30.0" 
+      version = "2.25.0" # <-- අපි version එක හරියටම මේකට pin කරනවා
     }
   }
 }
 
-
+provider "digitalocean" {
+  token = var.do_token
+}
 
 
 # --- DigitalOcean Provider Configuration ---

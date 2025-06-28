@@ -20,5 +20,5 @@ variable "droplet_region" {
 variable "ssh_public_key_path" {
   description = "The file path to the SSH public key."
   type        = string
-  default     = "~/.ssh/id_ed25519_digitalocen.pub" 
+  default     = "~/.ssh/iac_ansible_key.pub" 
 }
